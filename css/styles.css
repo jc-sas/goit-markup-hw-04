@@ -97,7 +97,7 @@ img {
 .header {
   border-bottom: 1px solid #ececec;
 }
-.header .container {
+.header-container {
   display: flex;
   align-items: center;
 }
@@ -164,6 +164,24 @@ img {
 }
 .contact-item:nth-child(2n) {
   margin-left: 30px;
+}
+.contact-link::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.contact-link.icon-mail::before {
+  background-image: url(../images/svg/mail.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.contact-link.icon-tel::before {
+  background-image: url(../images/svg/tel.svg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .contact-link {
   display: inline-block;
@@ -372,6 +390,9 @@ img {
   font-size: 16px;
   line-height: 1.87;
   color: var(--textColor);
+}
+.examples-link {
+  display: block;
 }
 .examples-link:hover,
 .examples-link:focus {
