@@ -165,24 +165,13 @@ img {
 .contact-item:nth-child(2n) {
   margin-left: 30px;
 }
-.contact-link::before {
-  content: "";
-  display: inline-block;
-  width: 16px;
-  height: 16px;
+
+.icon-contact {
   margin-right: 10px;
+  fill: currentColor;
   vertical-align: middle;
 }
-.contact-link.icon-mail::before {
-  background-image: url(../images/svg/mail.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.contact-link.icon-tel::before {
-  background-image: url(../images/svg/tel.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
+
 .contact-link {
   display: inline-block;
   padding-top: 32px;
