@@ -330,34 +330,20 @@ img {
   display: block;
   width: 44px;
   height: 44px;
+	padding: 12px 12px;
+	color: var(--textColor);
+	border-radius: 50%;
 }
-.social-link.instagram {
-  background-image: url(../images/svg/instagram.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 50%;
+.icon-social {
+	fill: currentColor;
 }
-.social-link.twitter {
-  background-image: url(../images/svg/twitter.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 50%;
-}
-.social-link.facebook {
-  background-image: url(../images/svg/facebook.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 50%;
-}
-.social-link.linkedin {
-  background-image: url(../images/svg/linkedin.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 50%;
-}
-.social-link:hover {
-  fill: #ffffff;
-  background-color: var(--accentColor);
+.social-link:hover,
+.social-link:focus,
+.social-link:hover:hover .icon-social,
+.social-link:hover:focus .icon-social {
+	background-color: var(--accentColor);
+	fill: #ffffff;
+
 }
 
 /* ========Footer======== */
@@ -406,10 +392,10 @@ img {
   color: var(--lightColor);
 }
 
-.social-link {
+/* .social-link {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
-}
+} */
 
 /* ========Portfolio page======== */
 
