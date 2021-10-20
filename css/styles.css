@@ -450,6 +450,7 @@ img {
   border-left: 1px solid #eeeeee;
 }
 .examples-title {
+	margin-bottom: 4px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
