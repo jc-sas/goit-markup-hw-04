@@ -248,10 +248,11 @@ img {
   margin-left: 30px;
 }
 .features-thumb {
+	display: flex;
+	align-items: center;
+	justify-content: center;
   width: 270px;
   height: 120px;
-  padding-top: 25px;
-  padding-bottom: 25px;
   margin-bottom: 30px;
   background-color: var(--secondaryBgColor);
   border-radius: 4px;
@@ -327,10 +328,11 @@ img {
   margin-right: 10px;
 }
 .social-link {
-  display: block;
+	display: flex;
+	align-items: center;
+	justify-content: center;
   width: 44px;
   height: 44px;
-	padding: 12px 12px;
 	color: var(--textColor);
 	border-radius: 50%;
 }
