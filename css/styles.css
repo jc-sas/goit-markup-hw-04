@@ -339,13 +339,11 @@ img {
 .icon-social {
 	fill: currentColor;
 }
-.social-link:hover,
-.social-link:focus,
-.social-link:hover:hover .icon-social,
-.social-link:hover:focus .icon-social {
-	background-color: var(--accentColor);
-	fill: #ffffff;
 
+.social-link:hover,
+.social-link:focus {
+	color: var(--lightColor);
+	background-color: var(--accentColor);
 }
 
 /* ========Footer======== */
@@ -395,11 +393,12 @@ img {
 }
 
 .footer-social-link {
+	color: var(--lightColor);
   background-color: rgba(255, 255, 255, 0.1);
 }
 
 .footer-icon-social {
-	fill: var(--lightColor);
+	fill: currentColor;
 }
 
 /* ========Portfolio page======== */
