@@ -248,9 +248,9 @@ img {
   margin-left: 30px;
 }
 .features-thumb {
-	display: flex;
-	align-items: center;
-	justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
@@ -328,23 +328,72 @@ img {
   margin-right: 10px;
 }
 .social-link {
-	display: flex;
-	align-items: center;
-	justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 44px;
   height: 44px;
-	color: var(--textColor);
-	border-radius: 50%;
+  color: var(--textColor);
+  border-radius: 50%;
 }
 .icon-social {
-	fill: currentColor;
+  fill: currentColor;
 }
 
 .social-link:hover,
 .social-link:focus {
-	color: var(--lightColor);
-	background-color: var(--accentColor);
+  color: var(--lightColor);
+  background-color: var(--accentColor);
 }
+
+/* ======== Client ======== */
+.client .title {
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 1.16;
+
+  color: var(--darckColor);
+
+  margin-bottom: 50px;
+}
+
+.client-icon {
+  fill: currentColor;
+}
+
+.client-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.client-list .client-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.link-client {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  color: #afb1b8;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.link-client:hover,
+.link-client:focus {
+  border-color: var(--accentColor);
+  color: var(--accentColor);
+}
+
+/* .link-client:focus .client-icon,
+.link-client:hover .client-icon {
+  fill: var(--accent-color);
+} */
 
 /* ========Footer======== */
 .footer {
@@ -393,12 +442,12 @@ img {
 }
 
 .footer-social-link {
-	color: var(--lightColor);
+  color: var(--lightColor);
   background-color: rgba(255, 255, 255, 0.1);
 }
 
 .footer-icon-social {
-	fill: currentColor;
+  fill: currentColor;
 }
 
 /* ========Portfolio page======== */
@@ -449,7 +498,7 @@ img {
   border-left: 1px solid #eeeeee;
 }
 .examples-title {
-	margin-bottom: 4px;
+  margin-bottom: 4px;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -464,5 +513,6 @@ img {
 }
 .examples-link:hover,
 .examples-link:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
