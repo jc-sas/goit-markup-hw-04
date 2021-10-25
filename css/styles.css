@@ -348,14 +348,13 @@ img {
 
 /* ======== Client ======== */
 .client .title {
+  margin-bottom: 50px;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
-  letter-spacing: 1.16;
-
+  letter-spacing: 0.03em;
   color: var(--darckColor);
 
-  margin-bottom: 50px;
 }
 
 .client-icon {
@@ -368,11 +367,11 @@ img {
   align-items: center;
 }
 
-.client-list .client-item:not(:last-child) {
+.client-item:not(:last-child) {
   margin-right: 30px;
 }
 
-.link-client {
+.client-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -384,8 +383,8 @@ img {
   border-radius: 4px;
 }
 
-.link-client:hover,
-.link-client:focus {
+.client-link:hover,
+.client-link:focus {
   border-color: var(--accentColor);
   color: var(--accentColor);
 }
